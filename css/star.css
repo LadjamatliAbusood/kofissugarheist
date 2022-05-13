@@ -1,0 +1,44 @@
+
+  @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+
+/* Basic styles */
+
+.rate {
+display: inline-block;
+margin: 0;
+padding: 0;
+border: none;
+}
+
+input[type="radio"] {
+  
+display: none;
+}
+
+label {
+  
+float: right;
+font-size: 0;
+color: #fcd000;
+}
+
+label:before {
+content: "\f005";
+font-family: FontAwesome;
+font-size: 22px;
+
+}
+
+
+/* Half-star*/
+
+.star-half {
+position: relative;
+}
+
+.star-half:before {
+position: absolute;
+content: "\f089";
+padding-right: 0;
+}
+  
